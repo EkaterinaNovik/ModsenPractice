@@ -11,6 +11,7 @@ body {
     left: 0px;
     right: 0px;
     top: 110px;
+    background-image: url(../photo/mainlyCloudyBack.png);
 }
 
 .time {
@@ -230,6 +231,7 @@ body {
     height: 30px;
     left: 1659px;
     top: 649px;
+    background-image: url(../photo/arrowDown.png);
 }
 
 /*event 4*/
@@ -377,6 +379,7 @@ body {
     height: 30px;
     left: 1688px;
     top: 424px;
+    background-image: url(../photo/arrowUp.png);
 }
 
 /*weather*/
@@ -444,7 +447,7 @@ body {
     height: 155px;
     left: 50px;
     top: 846px;
-
+    background-image: url(../photo/mainlyCloudyToday.png);
 }
 
 /*monday*/
@@ -483,6 +486,7 @@ body {
     height: 95px;
     left: 599px;
     top: 878px;
+    background-image: url(../photo/sunny.png);
 }
 
 .degreesForMonday {
@@ -539,6 +543,7 @@ body {
     height: 95px;
     left: 770px;
     top: 878px;
+    background-image: url(../photo/sunny.png);
 }
 
 .degreesForTuesday {
@@ -595,6 +600,7 @@ body {
     height: 95px;
     left: 941px;
     top: 878px;
+    background-image: url(../photo/cloudy.png);
 }
 
 .degreesForWednesday {
@@ -651,6 +657,7 @@ body {
     height: 95px;
     left: 1112px;
     top: 878px;
+    background-image: url(../photo/mainlyCloudy.png);
 }
 
 .degreesForThursday {
@@ -707,6 +714,7 @@ body {
     height: 95px;
     left: 1283px;
     top: 878px;
+    background-image: url(../photo/rain.png);
 }
 
 .degreesForFriday {
@@ -763,6 +771,7 @@ body {
     height: 95px;
     left: 1454px;
     top: 878px;
+    background-image: url(../photo/windy.png);
 }
 
 .degreesForSaturday {
@@ -819,6 +828,7 @@ body {
     height: 95px;
     left: 1625px;
     top: 878px;
+    background-image: url(../photo/snow.png);
 }
 
 .degreesForSunday {
@@ -837,4 +847,985 @@ body {
 
 
     color: #000000;
+}
+
+@media (max-width:768px) {
+    .photoBack {
+        width: 1024px;
+        height: 688px;
+        top: 80px;
+        background-image: url(../photo/mainlyCloudyBackTablet.png);
+    }
+
+    .time {
+        width: 116px;
+        height: 59px;
+        left: 100px;
+        top: 180px;
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    .date {
+        width: 315px;
+        height: 29px;
+        left: 100px;
+        top: 243px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .city {
+        width: 122px;
+        height: 39px;
+        left: 762px;
+        top: 209px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .country {
+        width: 77px;
+        height: 24px;
+        left: 806px;
+        top: 248px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .formForEvent1 {
+        width: 67px;
+        height: 30px;
+        left: 817px;
+        top: 315px;
+    }
+
+    .timeForEvent1 {
+        width: 31px;
+        height: 17px;
+        left: 18px;
+        top: 6px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .event1 {
+        width: 310px;
+        height: 24px;
+        left: 487px;
+        top: 316px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .formForEvent2 {
+        width: 67px;
+        height: 30px;
+        left: 816px;
+        top: 365px;
+    }
+
+    .timeForEvent2 {
+        width: 36px;
+        height: 17px;
+        left: 16px;
+        top: 6px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .event2 {
+        width: 202px;
+        height: 24px;
+        left: 595px;
+        top: 369px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .formForEvent3 {
+        width: 67px;
+        height: 30px;
+        left: 816px;
+        top: 415px;
+    }
+
+    .timeForEvent3 {
+        width: 36px;
+        height: 17px;
+        left: 17px;
+        top: 6px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .event3 {
+        width: 376px;
+        height: 24px;
+        left: 421px;
+        top: 416px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .arrowDown {
+        width: 25px;
+        height: 25px;
+        left: 836px;
+        top: 456px;
+        background-image: url(../photo/arrowDownTable.png);
+    }
+
+    .formForEvent4 {
+        width: 67px;
+        height: 30px;
+        left: 817px;
+        top: 315px;
+    }
+
+    .timeForEvent4 {
+        width: 38px;
+        height: 17px;
+        left: 15px;
+        top: 6px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .event4 {
+        width: 310px;
+        height: 24px;
+        left: 487px;
+        top: 316px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .formForEvent5 {
+        width: 67px;
+        height: 30px;
+        left: 816px;
+        top: 365px;
+    }
+
+    .timeForEvent5 {
+        width: 34px;
+        height: 17px;
+        left: 16px;
+        top: 6px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .event5 {
+        width: 202px;
+        height: 24px;
+        left: 595px;
+        top: 369px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .formForEvent6 {
+        width: 67px;
+        height: 30px;
+        left: 816px;
+        top: 415px;
+    }
+
+    .timeForEvent6 {
+        width: 38px;
+        height: 17px;
+        left: 15px;
+        top: 6px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .event6 {
+        width: 376px;
+        height: 24px;
+        left: 421px;
+        top: 416px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .arrowUp {
+        width: 25px;
+        height: 25px;
+        left: 862px;
+        top: 309px;
+    }
+
+    .backForWeather {
+        width: 1024px;
+        height: 214px;
+        top: 554px;
+    }
+
+    .formForToday {
+        width: 82px;
+        height: 28px;
+        left: 152px;
+        top: 610px;
+    }
+
+    .textToday {
+        width: 43px;
+        height: 15px;
+        left: 20px;
+        top: 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .degreesToday {
+        width: 69px;
+        height: 61px;
+        left: 164px;
+        top: 651px;
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    .iconTodayWeather {
+        width: 90px;
+        height: 90px;
+        left: 50px;
+        top: 616px;
+        background-image: url(../photo/mainlyCloudyTablet.png);
+    }
+
+    .formForMonday {
+        width: 62px;
+        height: 28px;
+        left: 329px;
+        top: 582px;
+    }
+
+    .textMonday {
+        width: 32px;
+        height: 15px;
+        left: 15px;
+        top: 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .degreesForMonday {
+        width: 33px;
+        height: 29px;
+        left: 345px;
+        top: 710px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .iconForMonday {
+        width: 55px;
+        height: 55px;
+        left: 331px;
+        top: 635px;
+        background-image: url(../photo/monTablet.png);
+    }
+
+    .formForTuesday {
+        width: 62px;
+        height: 28px;
+        left: 411px;
+        top: 582px;
+    }
+
+    .textTuesday {
+        width: 25px;
+        height: 15px;
+        left: 19px;
+        top: 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .degreesForTuesday {
+        width: 33px;
+        height: 29px;
+        left: 427px;
+        top: 710px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .iconForTuesday {
+        width: 55px;
+        height: 55px;
+        left: 414px;
+        top: 635px;
+        background-image: url(../photo/tueTablet.png);
+    }
+
+    .formForWednesday {
+        width: 62px;
+        height: 28px;
+        left: 493px;
+        top: 582px;
+    }
+
+    .textWednesday {
+        width: 32px;
+        height: 15px;
+        left: 15px;
+        top: 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .degreesForWednesday {
+        width: 35px;
+        height: 29px;
+        left: 507px;
+        top: 710px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .iconForWednesday {
+        width: 55px;
+        height: 55px;
+        left: 496px;
+        top: 635px;
+        background-image: url(../photo/wedTablet.png);
+    }
+
+    .formForThursday {
+        width: 62px;
+        height: 28px;
+        left: 575px;
+        top: 582px;
+    }
+
+    .textThursday {
+        width: 27px;
+        height: 15px;
+        left: 18px;
+        top: 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .degreesForThursday {
+        width: 26px;
+        height: 29px;
+        left: 593px;
+        top: 710px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .iconForThursday {
+        width: 55px;
+        height: 55px;
+        left: 575px;
+        top: 635px;
+        background-image: url(../photo/thuTablet.png);
+    }
+
+    .formForFriday {
+        width: 62px;
+        height: 28px;
+        left: 657px;
+        top: 582px;
+    }
+
+    .textFriday {
+        width: 21px;
+        height: 15px;
+        left: 21px;
+        top: 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .degreesForFriday {
+        position: absolute;
+        width: 26px;
+        height: 29px;
+        left: 675px;
+        top: 710px;
+        font-size: 24px;
+        line-height: 29px;
+
+    }
+
+    .iconForFriday {
+        width: 55px;
+        height: 55px;
+        left: 658px;
+        top: 635px;
+        background-image: url(../photo/friTablet.png);
+    }
+
+    .formForSaturday {
+        width: 62px;
+        height: 28px;
+        left: 739px;
+        top: 582px;
+    }
+
+    .textSaturday {
+        width: 23px;
+        height: 15px;
+        left: 20px;
+        top: 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .degreesForSaturday {
+        width: 26px;
+        height: 29px;
+        left: 755px;
+        top: 710px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .iconForSaturday {
+        width: 55px;
+        height: 55px;
+        left: 739px;
+        top: 635px;
+        background-image: url(../photo/satTablet.png);
+    }
+
+    .formForSunday {
+        width: 62px;
+        height: 28px;
+        left: 821px;
+        top: 582px;
+    }
+
+    .textSunday {
+        width: 26px;
+        height: 15px;
+        left: 18px;
+        top: 7px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .degreesForSunday {
+        position: absolute;
+        width: 33px;
+        height: 29px;
+        left: 835px;
+        top: 710px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .iconForSunday {
+        width: 55px;
+        height: 55px;
+        left: 823px;
+        top: 635px;
+        background-image: url(../photo/sunTablet.png);
+    }
+}
+
+@media (max-width:360px) {
+    .photoBack {
+        width: 360px;
+        height: 729px;
+        top: 71px;
+        background-image: url(../photo/mainlyCloudyBackPhone.png);
+    }
+
+    .time {
+        width: 63px;
+        height: 32px;
+        left: 35px;
+        top: 131px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .date {
+        width: 158px;
+        height: 15px;
+        left: 35px;
+        top: 163px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .city {
+        width: 61px;
+        height: 20px;
+        left: 276px;
+        top: 142px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .country {
+        width: 47px;
+        height: 15px;
+        left: 288px;
+        top: 163px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .formForEvent1 {
+        width: 43px;
+        height: 19px;
+        left: 294px;
+        top: 214px;
+    }
+
+    .timeForEvent1 {
+        width: 20px;
+        height: 11px;
+        left: 12px;
+        top: 4px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .event1 {
+        width: 186px;
+        height: 15px;
+        left: 94px;
+        top: 216px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .formForEvent2 {
+        width: 43px;
+        height: 19px;
+        left: 294px;
+        top: 248px;
+    }
+
+    .timeForEvent2 {
+        width: 23px;
+        height: 11px;
+        left: 10px;
+        top: 4px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .event2 {
+        width: 122px;
+        height: 15px;
+        left: 158px;
+        top: 251px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .formForEvent3 {
+        width: 43px;
+        height: 19px;
+        left: 294px;
+        top: 282px;
+
+    }
+
+    .timeForEvent3 {
+        width: 23px;
+        height: 11px;
+        left: 10px;
+        top: 4px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .event3 {
+        width: 226px;
+        height: 15px;
+        left: 54px;
+        top: 283px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .arrowDown {
+        width: 15px;
+        height: 15px;
+        left: 309px;
+        top: 307px;
+        background-image: url(../photo/arrowDownPhone.png);
+    }
+
+    .formForEvent4 {
+        width: 43px;
+        height: 19px;
+        left: 294px;
+        top: 214px;
+    }
+
+    .timeForEvent4 {
+        width: 25px;
+        height: 11px;
+        left: 10px;
+        top: 4px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .event4 {
+        width: 186px;
+        height: 15px;
+        left: 94px;
+        top: 216px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .formForEvent5 {
+        width: 43px;
+        height: 19px;
+        left: 294px;
+        top: 248px;
+    }
+
+    .timeForEvent5 {
+        width: 22px;
+        height: 11px;
+        left: 10px;
+        top: 4px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .event5 {
+        position: absolute;
+        width: 122px;
+        height: 15px;
+        left: 158px;
+        top: 251px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .formForEvent6 {
+        width: 43px;
+        height: 19px;
+        left: 294px;
+        top: 282px;
+
+    }
+
+    .timeForEvent6 {
+        width: 25px;
+        height: 11px;
+        left: 10px;
+        top: 4px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .event6 {
+        width: 226px;
+        height: 15px;
+        left: 54px;
+        top: 283px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .arrowUp {
+        width: 15px;
+        height: 15px;
+        left: 323px;
+        top: 208px;
+        background-image: url(../photo/arrowUpPhone.png);
+    }
+
+    .backForWeather {
+        width: 360px;
+        height: 429px;
+        top: 371px;
+        background: rgba(154, 165, 173, 0.85);
+    }
+
+    .formForToday {
+        width: 56px;
+        height: 19px;
+        left: 196px;
+        top: 406px;
+
+    }
+
+    .textToday {
+        width: 33px;
+        height: 11px;
+        left: 12px;
+        top: 4px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .degreesToday {
+        width: 44px;
+        height: 39px;
+        left: 207px;
+        top: 430px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .iconTodayWeather {
+        width: 70px;
+        height: 70px;
+        left: 108px;
+        top: 401px;
+        background-image: url(../photo/mainlyCloudyPhone.png);
+    }
+
+    .formForMonday {
+        width: 49px;
+        height: 22px;
+        left: 30px;
+        top: 501px;
+    }
+
+    .textMonday {
+        width: 24px;
+        height: 11px;
+        left: 13px;
+        top: 6px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .degreesForMonday {
+        width: 28px;
+        height: 24px;
+        left: 44px;
+        top: 586px;
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+
+    .iconForMonday {
+        width: 45px;
+        height: 45px;
+        left: 32px;
+        top: 532px;
+        background-image: url(../photo/monPhone.png);
+    }
+
+    .formForTuesday {
+        width: 49px;
+        height: 22px;
+        left: 114px;
+        top: 501px;
+
+    }
+
+    .textTuesday {
+        width: 19px;
+        height: 11px;
+        left: 16px;
+        top: 6px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .degreesForTuesday {
+        width: 28px;
+        height: 24px;
+        left: 127px;
+        top: 586px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .iconForTuesday {
+        width: 45px;
+        height: 45px;
+        left: 116px;
+        top: 532px;
+        background-image: url(../photo/monPhone.png);
+    }
+
+    .formForWednesday {
+        width: 49px;
+        height: 22px;
+        left: 198px;
+        top: 501px;
+    }
+
+    .textWednesday {
+        width: 24px;
+        height: 11px;
+        left: 14px;
+        top: 6px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .degreesForWednesday {
+        width: 30px;
+        height: 24px;
+        left: 212px;
+        top: 586px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .iconForWednesday {
+        width: 45px;
+        height: 45px;
+        left: 201px;
+        top: 532px;
+
+        background-image: url(../photo/wedPhone.png);
+    }
+
+    .formForThursday {
+        width: 49px;
+        height: 22px;
+        left: 282px;
+        top: 501px;
+    }
+
+    .textThursday {
+        width: 20px;
+        height: 11px;
+        left: 15px;
+        top: 6px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .degreesForThursday {
+        width: 22px;
+        height: 24px;
+        left: 298px;
+        top: 586px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .iconForThursday {
+        width: 45px;
+        height: 45px;
+        left: 284px;
+        top: 532px;
+
+        background-image: url(../photo/thuPhone.png);
+    }
+
+    .formForFriday {
+        width: 49px;
+        height: 22px;
+        left: 67px;
+        top: 629px;
+
+    }
+
+    .textFriday {
+        width: 16px;
+        height: 11px;
+        left: 17px;
+        top: 5px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .degreesForFriday {
+        width: 22px;
+        height: 24px;
+        left: 84px;
+        top: 719px;
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+
+    .iconForFriday {
+        width: 45px;
+        height: 45px;
+        left: 70px;
+        top: 660px;
+
+        background-image: url(../photo/friPhone.png);
+    }
+
+    .formForSaturday {
+        width: 49px;
+        height: 22px;
+        left: 156px;
+        top: 629px;
+    }
+
+    .textSaturday {
+        width: 18px;
+        height: 11px;
+        left: 16px;
+        top: 5px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .degreesForSaturday {
+        width: 22px;
+        height: 24px;
+        left: 172px;
+        top: 719px;
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+
+    .iconForSaturday {
+        width: 45px;
+        height: 45px;
+        left: 157px;
+        top: 660px;
+        background-image: url(../photo/satPhone.png);
+    }
+
+    .formForSunday {
+        width: 49px;
+        height: 22px;
+        left: 245px;
+        top: 629px;
+    }
+
+    .textSunday {
+        width: 21px;
+        height: 11px;
+        left: 15px;
+        top: 5px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .degreesForSunday {
+        width: 28px;
+        height: 24px;
+        left: 254px;
+        top: 719px;
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+
+    .iconForSunday {
+        width: 45px;
+        height: 45px;
+        left: 247px;
+        top: 660px;
+
+        background-image: url(../photo/sunPhone.png);
+    }
+
 }
