@@ -68,8 +68,97 @@
 
 .iconSearch {
     position: absolute;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     left: 1681px;
     top: 45px;
+    background-image: url(../photo/searchHead.png);
+}
+
+@media (max-width:768px) {
+    .name {
+        width: 101px;
+        height: 29px;
+        left: 60px;
+        top: 25px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .searchCity {
+        /*text*/
+        width: 98px;
+        height: 15px;
+        left: 545px;
+        top: 34px;
+        font-size: 12px;
+        line-height: 15px;
+        /*form*/
+        width: 359px;
+        height: 31px;
+        left: 525px;
+        top: 26px;
+    }
+
+    .searchCity::placeholder {
+        width: 120px;
+        height: 15px;
+        left: 545px;
+        top: 34px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .iconSearch {
+        width: 13px;
+        height: 13px;
+        top: 35px;
+        left: 856px;
+        background-image: url(../photo/searchTablet.png);
+    }
+}
+
+@media (max-width:360px) {
+    .name {
+        width: 59px;
+        height: 17px;
+        left: 35px;
+        top: 41px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .searchCity {
+        /*text*/
+        width: 65px;
+        height: 10px;
+        left: 187px;
+        top: 45px;
+        font-size: 8px;
+        line-height: 10px;
+        text-indent: 10px;
+        /*form*/
+        width: 160px;
+        height: 20px;
+        left: 177px;
+        top: 40px;
+    }
+
+    .searchCity::placeholder {
+        width: 100px;
+        height: 10px;
+        left: 10px;
+        top: 5px;
+        font-size: 8px;
+        line-height: 10px;
+        text-indent: 10px;
+    }
+
+    .iconSearch {
+        width: 8px;
+        height: 8px;
+        top: 46px;
+        left: 319px;
+        background-image: url(../photo/searchPhone.png);
+    }
 }
