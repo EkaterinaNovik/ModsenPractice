@@ -102,5 +102,7 @@
       }
     }
   },
-  "defaultProject": "weather"
+  "cli": {
+    "analytics": false
+  }
 }
