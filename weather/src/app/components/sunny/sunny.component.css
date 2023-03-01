@@ -11,7 +11,8 @@ body {
     left: 0px;
     right: 0px;
     top: 110px;
-    background-image: url(../../../assets/photo/sunnyback.png);
+
+
 }
 
 .time {
@@ -231,7 +232,7 @@ body {
     height: 30px;
     left: 1659px;
     top: 649px;
-    background-image: url(../../../assets/photo/arrowDown.png);
+
 }
 
 /*event 4*/
@@ -446,7 +447,6 @@ body {
     height: 155px;
     left: 50px;
     top: 846px;
-    background-image: url(../../../assets/photo/sunnyToday.png);
 }
 
 /*monday*/
@@ -485,7 +485,6 @@ body {
     height: 95px;
     left: 599px;
     top: 878px;
-    background-image: url(../../../assets/photo/sunny.png);
 }
 
 .degreesForMonday {
@@ -542,7 +541,7 @@ body {
     height: 95px;
     left: 770px;
     top: 878px;
-    background-image: url(../../../assets/photo/sunny.png);
+
 }
 
 .degreesForTuesday {
@@ -599,7 +598,6 @@ body {
     height: 95px;
     left: 941px;
     top: 878px;
-    background-image: url(../../../assets/photo/cloudy.png);
 }
 
 .degreesForWednesday {
@@ -656,7 +654,7 @@ body {
     height: 95px;
     left: 1112px;
     top: 878px;
-    background-image: url(../../../assets/photo/mainlyCloudy.png);
+
 }
 
 .degreesForThursday {
@@ -713,7 +711,7 @@ body {
     height: 95px;
     left: 1283px;
     top: 878px;
-    background-image: url(../../../assets/photo/rain.png);
+
 }
 
 .degreesForFriday {
@@ -770,7 +768,7 @@ body {
     height: 95px;
     left: 1454px;
     top: 878px;
-    background-image: url(../../../assets/photo/windy.png);
+
 }
 
 .degreesForSaturday {
@@ -827,7 +825,7 @@ body {
     height: 95px;
     left: 1625px;
     top: 878px;
-    background-image: url(../../../assets/photo/snow.png);
+
 }
 
 .degreesForSunday {
@@ -853,7 +851,7 @@ body {
         width: 1024px;
         height: 688px;
         top: 80px;
-        background-image: url(../../../assets/photo/sunnyBackTablet.png);
+
     }
 
     .time {
@@ -973,7 +971,7 @@ body {
         height: 25px;
         left: 836px;
         top: 456px;
-        background-image: url(../../../assets/photo/arrowDownTable.png);
+
     }
 
     .formForEvent4 {
@@ -1094,7 +1092,6 @@ body {
         height: 90px;
         left: 50px;
         top: 616px;
-        background-image: url(../../../assets/photo/sunnyTablet.png);
     }
 
     .formForMonday {
@@ -1127,7 +1124,7 @@ body {
         height: 55px;
         left: 331px;
         top: 635px;
-        background-image: url(../../../assets/photo/monTablet.png);
+
     }
 
     .formForTuesday {
@@ -1160,7 +1157,6 @@ body {
         height: 55px;
         left: 414px;
         top: 635px;
-        background-image: url(../../../assets/photo/tueTablet.png);
     }
 
     .formForWednesday {
@@ -1193,7 +1189,7 @@ body {
         height: 55px;
         left: 496px;
         top: 635px;
-        background-image: url(../../../assets/photo/wedTablet.png);
+
     }
 
     .formForThursday {
@@ -1226,7 +1222,7 @@ body {
         height: 55px;
         left: 575px;
         top: 635px;
-        background-image: url(../../../assets/photo/thuTablet.png);
+
     }
 
     .formForFriday {
@@ -1261,7 +1257,7 @@ body {
         height: 55px;
         left: 658px;
         top: 635px;
-        background-image: url(../../../assets/photo/friTablet.png);
+
     }
 
     .formForSaturday {
@@ -1294,7 +1290,7 @@ body {
         height: 55px;
         left: 739px;
         top: 635px;
-        background-image: url(../../../assets/photo/satTablet.png);
+
     }
 
     .formForSunday {
@@ -1328,7 +1324,7 @@ body {
         height: 55px;
         left: 823px;
         top: 635px;
-        background-image: url(../../../assets/photo/sunTablet.png);
+
     }
 }
 
@@ -1337,7 +1333,7 @@ body {
         width: 360px;
         height: 729px;
         top: 71px;
-        background-image: url(../../../assets/photo/sunnyBackPhone.png);
+
     }
 
     .time {
@@ -1457,7 +1453,7 @@ body {
         height: 15px;
         left: 309px;
         top: 307px;
-        background-image: url(../../../assets/photo/arrowDownPhone.png);
+
     }
 
     .formForEvent4 {
@@ -1542,7 +1538,7 @@ body {
         height: 15px;
         left: 323px;
         top: 208px;
-        background-image: url(../../../assets/photo/arrowUpPhone.png);
+
     }
 
     .backForWeather {
@@ -1583,7 +1579,7 @@ body {
         height: 70px;
         left: 108px;
         top: 401px;
-        background-image: url(../../../assets/photo/sunnyPhone.png);
+
     }
 
     .formForMonday {
@@ -1617,7 +1613,7 @@ body {
         height: 45px;
         left: 32px;
         top: 532px;
-        background-image: url(../../../assets/photo/monPhone.png);
+
     }
 
     .formForTuesday {
@@ -1651,7 +1647,6 @@ body {
         height: 45px;
         left: 116px;
         top: 532px;
-        background-image: url(../../../assets/photo/monPhone.png);
     }
 
     .formForWednesday {
@@ -1685,7 +1680,6 @@ body {
         left: 201px;
         top: 532px;
 
-        background-image: url(../../../assets/photo/wedPhone.png);
     }
 
     .formForThursday {
@@ -1718,8 +1712,6 @@ body {
         height: 45px;
         left: 284px;
         top: 532px;
-
-        background-image: url(../../../assets/photo/thuPhone.png);
     }
 
     .formForFriday {
@@ -1789,7 +1781,7 @@ body {
         height: 45px;
         left: 157px;
         top: 660px;
-        background-image: url(../../../assets/photo/satPhone.png);
+
     }
 
     .formForSunday {
@@ -1824,7 +1816,6 @@ body {
         left: 247px;
         top: 660px;
 
-        background-image: url(../../../assets/photo/sunPhone.png);
     }
 
 }
