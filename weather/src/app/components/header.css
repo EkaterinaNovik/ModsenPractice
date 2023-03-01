@@ -71,8 +71,7 @@
     width: 18px;
     height: 18px;
     left: 1681px;
-    top: 45px;
-    background-image: url(../../assets/photo/searchHead.png);
+    top: 46px;
 }
 
 @media (max-width:768px) {
@@ -112,9 +111,8 @@
     .iconSearch {
         width: 13px;
         height: 13px;
-        top: 35px;
+        top: 34px;
         left: 856px;
-        background-image: url(../../assets/photo/searchTablet.png);
     }
 }
 
@@ -157,8 +155,7 @@
     .iconSearch {
         width: 8px;
         height: 8px;
-        top: 46px;
+        top: 40px;
         left: 319px;
-        background-image: url(../../assets/photo/searchPhone.png);
     }
 }
