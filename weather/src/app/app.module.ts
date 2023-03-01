@@ -10,10 +10,13 @@ import { SnowComponent } from './components/snow/snow.component';
 import { SunnyComponent } from './components/sunny/sunny.component';
 import { WindyComponent } from './components/windy/windy.component';
 import { StoreModule } from '@ngrx/store';
-import { reducers, metaReducers } from './reducers';
+import { effects } from './store';
+import { reducer } from "./store/reducers/weather.reducer"
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { EffectsModule } from '@ngrx/effects';
-import { AppEffects } from './app.effects';
+import { HttpClientModule } from "@angular/common/http";
+import { WeatherService } from "./weather.service";
+
 
 @NgModule({
   declarations: [
@@ -28,13 +31,12 @@ import { AppEffects } from './app.effects';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot(reducers, {
-      metaReducers
-    }),
+    HttpClientModule,
+    StoreModule.forRoot({ weather: reducer }),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() }),
-    EffectsModule.forRoot([AppEffects])
+    EffectsModule.forRoot(effects)
   ],
-  providers: [],
+  providers: [WeatherService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
