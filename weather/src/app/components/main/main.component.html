@@ -1,0 +1,144 @@
+<div class="body">
+    <div class="backColor"></div>
+    <div class="name">weather</div>
+    <form (submit)="onSubmit()" [formGroup]="weatherForm">
+        <input type="text" name="city" formControlName="city" class="searchCity" placeholder="Vitebsk, Belarus" />
+
+        <button class="button">
+            <div class="iconSearch">
+                <picture>
+                    <source media="(max-width: 360px)" srcset="../../assets/photo/searchPhone.png">
+                    <source media="(max-width: 768px)" srcset="../../assets/photo/searchTablet.png">
+                    <img src="../../assets/photo/searchHead.png">
+                </picture>
+
+            </div>
+        </button>
+    </form>
+    <div class="photoBack">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/sunnyBackPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/sunnyBackTablet.png">
+            <img src="../../../assets/photo/sunnyback.png">
+        </picture>
+    </div>
+    <div class="time">12:30</div>
+    <div class="date">Monday, 10 February 2023</div>
+    <div class="city">{{weather.cityName}}</div>
+    <div class="country">Belarus</div>
+    <div class="formForEvent1">
+        <div class="timeForEvent1">8:00</div>
+    </div>
+    <div class="event1">Check Dribbble popular pages</div>
+    <div class="formForEvent2">
+        <div class="timeForEvent2">12:00</div>
+    </div>
+    <div class="event2">Make Dribbble Shot</div>
+    <div class="formForEvent3">
+        <div class="timeForEvent3">21:00</div>
+    </div>
+    <div class="event3">Check if you are on the Popular page</div>
+    <div class="arrowDown">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/arrowDownPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/arrowDownTable.png">
+            <img src="../../../assets/photo/arrowDown.png">
+        </picture>
+    </div>
+    <div class="backForWeather"></div>
+    <div class="formForToday">
+        <div class="textToday">TODAY</div>
+    </div>
+
+    <div class="degreesToday">{{DaysWeather.temp}}&deg;C</div>
+    <div class="iconTodayWeather">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/sunnyPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/sunnyTablet.png">
+            <img src="../../../assets/photo/sunnyToday.png">
+        </picture>
+    </div>
+    <div class="formForMonday">
+        <div class="textMonday">MON</div>
+    </div>
+    <div class="iconForMonday">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/monPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/monTablet.png">
+            <img src="../../../assets/photo/sunny.png">
+        </picture>
+    </div>
+    <div class="degreesForMonday">12°</div>
+
+    <div class="formForTuesday">
+        <div class="textTuesday">TUE</div>
+    </div>
+    <div class="iconForTuesday">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/monPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/monTablet.png">
+            <img src="../../../assets/photo/sunny.png">
+        </picture>
+    </div>
+    <div class="degreesForTuesday">12°</div>
+
+    <div class="formForWednesday">
+        <div class="textWednesday">WED</div>
+    </div>
+    <div class="iconForWednesday">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/wedPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/wedTablet.png">
+            <img src="../../../assets/photo/cloudy.png">
+        </picture>
+    </div>
+    <div class="degreesForWednesday">10°</div>
+
+    <div class="formForThursday">
+        <div class="textThursday">THU</div>
+    </div>
+    <div class="iconForThursday">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/thuPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/thuTablet.png">
+            <img src="../../../assets/photo/mainlyCloudy.png">
+        </picture>
+    </div>
+    <div class="degreesForThursday">8°</div>
+
+    <div class="formForFriday">
+        <div class="textFriday">FRI</div>
+    </div>
+    <div class="iconForFriday">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/friPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/friTablet.png">
+            <img src="../../../assets/photo/rain.png">
+        </picture>
+    </div>
+    <div class="degreesForFriday">8°</div>
+
+    <div class="formForSaturday">
+        <div class="textSaturday">SAT</div>
+    </div>
+    <div class="iconForSaturday">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/satPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/satTablet.png">
+            <img src="../../../assets/photo/windy.png">
+        </picture>
+    </div>
+    <div class="degreesForSaturday">4°</div>
+
+    <div class="formForSunday">
+        <div class="textSunday">SUN</div>
+    </div>
+    <div class="iconForSunday">
+        <picture>
+            <source media="(max-width: 360px)" srcset="../../../assets/photo/sunPhone.png">
+            <source media="(max-width: 768px)" srcset="../../../assets/photo/sunTablet.png">
+            <img src="../../../assets/photo/snow.png">
+        </picture>
+    </div>
+    <div class="degreesForSunday">-2°</div>
+</div>
