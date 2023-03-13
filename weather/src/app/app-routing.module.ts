@@ -6,6 +6,7 @@ import { RainComponent } from './components/rain/rain.component';
 import { SnowComponent } from './components/snow/snow.component';
 import { SunnyComponent } from './components/sunny/sunny.component';
 import { WindyComponent } from './components/windy/windy.component';
+import { MainComponent } from './components/main/main.component';
 
 const routes: Routes = [
   { path: 'cloudy', component: CloudyComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'rain', component: RainComponent },
   { path: 'snow', component: SnowComponent },
   { path: 'sunny', component: SunnyComponent },
-  { path: 'windy', component: WindyComponent }
+  { path: 'windy', component: WindyComponent },
+  { path: "", component: MainComponent }
 ];
 
 @NgModule({
