@@ -1,5 +1,6 @@
-import { FetchWeatherFail, FetchWeatherSuccess } from '../actions';
+import { FetchWeather, FetchWeatherFail, FetchWeatherSuccess } from '../actions';
 import { createReducer, on } from '@ngrx/store';
+import * as weatherActions from "../actions/weather.action"
 
 export interface WeatherState {
     data: Object,
@@ -21,9 +22,11 @@ export const reducer = createReducer(
         loaded: true
     })),
 
-    on(FetchWeatherFail, (state) => ({
+    on(FetchWeatherFail, (state, { payload }) => ({
         ...state,
-        loading: true
+        loading: false,
+        loaded: false,
+        data: payload
     }))
 )
 
