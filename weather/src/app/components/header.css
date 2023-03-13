@@ -15,6 +15,17 @@
     color: #00E709;
 }
 
+.button {
+    position: absolute;
+    width: 41px;
+    height: 32px;
+    left: 1666px;
+    top: 39px;
+
+    background: #FFFFFF;
+    border: none;
+}
+
 .backColor {
     position: absolute;
     width: 1920px;
@@ -70,8 +81,8 @@
     position: absolute;
     width: 18px;
     height: 18px;
-    left: 1681px;
-    top: 46px;
+    left: 11px;
+    top: 7px;
 }
 
 @media (max-width:768px) {
