@@ -14,8 +14,12 @@ import { effects } from './store';
 import { reducer } from "./store/reducers/weather.reducer"
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { EffectsModule } from '@ngrx/effects';
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { WeatherService } from "./weather.service";
+import { MessagesComponent } from './components/messages/messages.component';
+import { MainComponent } from './components/main/main.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AuthenticationInterceptor } from './auth';
 
 
 @NgModule({
@@ -26,17 +30,25 @@ import { WeatherService } from "./weather.service";
     RainComponent,
     SnowComponent,
     SunnyComponent,
-    WindyComponent
+    WindyComponent,
+    MessagesComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     StoreModule.forRoot({ weather: reducer }),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() }),
     EffectsModule.forRoot(effects)
   ],
-  providers: [WeatherService],
+  providers: [WeatherService, {
+    provide: HTTP_INTERCEPTORS,
+    useClass: AuthenticationInterceptor,
+    multi: true,
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
