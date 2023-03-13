@@ -10,7 +10,7 @@ import { Observable, of } from "rxjs";
 export class WeatherEffects {
     constructor(private actions$: Actions, private weatherService: WeatherService) { }
     loadWeather$ = createEffect(() => this.actions$.pipe(
-        ofType(WeatherActions.FetchWeather),
+        ofType(WeatherActions.FETCH_WEATHER),
         switchMap((action: any) => {
             return this.weatherService.getWeatherData(action.payload).pipe(
                 map(data => ({ type: WeatherActions.FETCH_WEATHER_SUCCESS, payload: data })),
