@@ -1,6 +1,6 @@
 import { FetchWeather, FetchWeatherFail, FetchWeatherSuccess } from '../actions';
 import { createReducer, on } from '@ngrx/store';
-import * as weatherActions from "../actions/weather.action"
+
 
 export interface WeatherState {
     data: Object,

@@ -15,8 +15,8 @@ import { reducer } from "./store/reducers/weather.reducer"
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { EffectsModule } from '@ngrx/effects';
 import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
-import { WeatherService } from "./weather.service";
-import { MessagesComponent } from './components/messages/messages.component';
+import { WeatherService } from "./services/weather.service";
+import { MessagesComponent } from './messages/messages.component';
 import { MainComponent } from './components/main/main.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AuthenticationInterceptor } from './auth';

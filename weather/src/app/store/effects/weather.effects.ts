@@ -3,7 +3,7 @@ import { createEffect, Actions, ofType } from "@ngrx/effects";
 import * as WeatherActions from "../actions/weather.action";
 import { Action } from "@ngrx/store";
 import { switchMap, map, catchError } from 'rxjs/operators';
-import { WeatherService } from "../../weather.service";
+import { WeatherService } from "../../services/weather.service";
 import { Observable, of } from "rxjs";
 
 @Injectable()

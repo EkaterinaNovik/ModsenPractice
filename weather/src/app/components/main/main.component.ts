@@ -2,13 +2,14 @@ import { Component, Input } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { catchError } from 'rxjs/operators';
 import { throwError } from 'rxjs';
-import { Forecast } from '../../forecast';
-import { CurrentWeather } from '../../current-weather';
-import { WeatherService } from '../../weather.service';
-import { MessageService } from '../../message.service';
+import { Forecast } from '../../models/forecast';
+import { CurrentWeather } from '../../models/current-weather';
+import { WeatherService } from '../../services/weather.service';
+import { MessageService } from '../../services/message.service';
 import * as WeatherStore from "../../store";
 import { Store } from "@ngrx/store";
 import { FormGroup, FormControl, Validators } from "@angular/forms";
+
 
 @Component({
   selector: 'app-main',
@@ -25,7 +26,8 @@ export class MainComponent implements OnInit {
   });
 
 
-  fetchWeather(formData: FormData) {
+  fetchWeather() {
+    const formData = new FormData();
     let city = formData.get("city");
     this.store.dispatch(new WeatherStore.FetchWeather(city));
   }
@@ -34,6 +36,7 @@ export class MainComponent implements OnInit {
   cityForecast: Forecast[] = [];
   DaysWeather!: CurrentWeather;
   city = '';
+
 
   ngOnInit() {
     const city = this.cityDetect();

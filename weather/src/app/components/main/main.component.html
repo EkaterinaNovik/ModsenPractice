@@ -1,8 +1,8 @@
 <div class="body">
     <div class="backColor"></div>
     <div class="name">weather</div>
-    <form (submit)="onSubmit()" [formGroup]="weatherForm">
-        <input type="text" name="city" formControlName="city" class="searchCity" placeholder="Vitebsk, Belarus" />
+    <form (submit)="onSubmit()">
+        <input type="text" name="city" [(ngModel)]="city" class="searchCity" placeholder="Vitebsk, Belarus" />
 
         <button class="button">
             <div class="iconSearch">
@@ -24,7 +24,7 @@
     </div>
     <div class="time">12:30</div>
     <div class="date">Monday, 10 February 2023</div>
-    <div class="city">{{weather.cityName}}</div>
+    <div class="city">{{DaysWeather.cityName}}</div>
     <div class="country">Belarus</div>
     <div class="formForEvent1">
         <div class="timeForEvent1">8:00</div>
@@ -50,7 +50,7 @@
         <div class="textToday">TODAY</div>
     </div>
 
-    <div class="degreesToday">{{DaysWeather.temp}}&deg;C</div>
+    <div class="degreesToday">{{DaysWeather.temp | number: '1.0-0'}}&deg;</div>
     <div class="iconTodayWeather">
         <picture>
             <source media="(max-width: 360px)" srcset="../../../assets/photo/sunnyPhone.png">
